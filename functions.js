@@ -37,7 +37,9 @@ OUTPUT:
 */
 
 export function getNamesOfDogs(arr) {
-    return [];
+    return arr.filter(animal => animal.type === 'dog')
+        .map(animal => animal.name);
+
 }
 
 /*
@@ -76,7 +78,7 @@ Output:
 ]*/
 
 export function makeArrayWithIsHungry(arr) {
-     return []
+    return [];
 }
 
 /*
